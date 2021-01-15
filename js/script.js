@@ -15,7 +15,7 @@ var studente = {
 
 // 2 stampo con for in
 for ( var key in studente){
-  console.log(studente[key]);
+  // console.log(studente[key]);
 }
 
 
@@ -41,7 +41,7 @@ var studenti = [
 ];
 // 4 ciclo e stampo
 for (var i = 0; i < studenti.length; i++) {
-  console.log(studenti[i].nome,studenti[i].cognome);
+  // console.log(studenti[i].nome,studenti[i].cognome);
 
 }
 
@@ -60,6 +60,14 @@ var utente = {
 };
 
 studenti.push(utente);
+
+// 7 stampo tutto l'array anche con i dati dell'utente
+
+for (var i = 0; i < studenti.length; i++) {
+  for ( var key in studenti [i]){
+    console.log(studenti[i][key]);
+  }
+}
 
 
 
