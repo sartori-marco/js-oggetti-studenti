@@ -45,6 +45,23 @@ for (var i = 0; i < studenti.length; i++) {
 
 }
 
+// 5 uso 3 prompt e chiedo nome cognome ed eta
+
+var nome = prompt('Inserisci il nome');
+var cognome = prompt('Inserisci il cognome');
+var eta = prompt('Inserisci l\'eta');
+
+// 6 creo un ciclo e pusho i dati dell'utente nell'array studenti
+
+var utente = {
+  nome : nome,
+  cognome : cognome,
+  eta : eta
+};
+
+studenti.push(utente);
+
+
 
 
 
