@@ -5,7 +5,7 @@
 // 5 Dare la possibilità all’utente attraverso 3 prompt di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
 
-// creo l'oggetto
+//1 creo l'oggetto
 
 var studente = {
   nome: 'Paolo',
@@ -13,13 +13,13 @@ var studente = {
   eta: '25'
 }
 
-// stampo con for in
+// 2 stampo con for in
 for ( var key in studente){
   console.log(studente[key]);
 }
 
 
-// creo un array di oggetti di studenti
+// 3 creo un array di oggetti di studenti
 
 var studenti = [
   {
@@ -39,8 +39,9 @@ var studenti = [
   },
 
 ];
-// ciclo e stampo
+// 4 ciclo e stampo
 for (var i = 0; i < studenti.length; i++) {
+  console.log(studenti[i].nome,studenti[i].cognome);
 
 }
 
